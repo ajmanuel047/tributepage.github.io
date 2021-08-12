@@ -87,6 +87,7 @@ img {
  .column {
   grid-template-rows: repeat(6, 84%);
   grid-template-columns: repeat(2, 50%);
+  
   }
  
  .first, .second {
@@ -102,6 +103,19 @@ img {
   margin-top: -154px;
   margin-bottom: 220px;
 }
+
+p, li {
+margin-left: 5px;
+margin-right: 8px;
+text-align:justify;
+}
+
+h2, h3 {
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+}
+  
+
 
  #conclusion {
   margin-top: 570px;
