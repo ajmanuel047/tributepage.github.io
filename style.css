@@ -1,1 +1,116 @@
 
+body{
+  background-color: rgba(241, 250, 238, 0.4);  
+}
+
+
+
+#title {  
+  margin-top: 20px;
+  text-align: center;
+  line-height: 4rem;
+}
+
+#titleparagraph {
+margin-top: -20px;
+}
+
+h1 {
+  font-size: 3rem;
+  background-color: rgba(168, 218, 220, 0.2);
+  height: 90px; 
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  background-color: rgba(168, 218, 220, 0.2);
+}
+
+h2 {
+  text-align: center;
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+h3, h2, p, li, blockquote, .column {
+  font-family: 'Open Sans', sans-serif; 
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+h3, #bookslist {
+  text-align: center;
+}
+
+#titleparagraph {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#main {
+  margin: 0.4rem;
+}
+
+#img-div {
+  padding: 30px;
+  margin-top: -40px;
+  margin-bottom: -10px;
+}
+
+img {
+  width: 100%;
+  height: auto; 
+}
+
+.column {
+  display: grid;
+  grid-template-rows: repeat(6, 40%);
+  grid-template-columns: repeat(2, 1fr);
+  height: 500px;
+  grid-gap: 0.2rem;
+}
+
+.spacing {
+  padding: 12px;
+}
+
+.first, .second, .third, .fourth, .fifth, .sixth {
+  background-color: rgba(29, 53, 87, 0.2);
+  font-weight: bold;
+}
+
+#conclusion {
+  margin-top: 120px;
+}
+
+@media screen and (max-width: 700px){
+ .column {
+  grid-template-rows: repeat(6, 84%);
+  grid-template-columns: repeat(2, 50%);
+  }
+ 
+ .first, .second {
+   height: 60%;
+ }
+
+.third, .fourth {
+  margin-top: -144px;
+  height: 92%;
+}
+
+.fifth, .sixth {
+  margin-top: -154px;
+}
+
+ #conclusion {
+  margin-top: 780px;
+ }
+ 
+} 
+
+
+
+
+
+
+
